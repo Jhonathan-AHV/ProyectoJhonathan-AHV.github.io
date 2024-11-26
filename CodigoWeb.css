@@ -1,0 +1,147 @@
+:root {
+    --color-primary: #333; /* Color primario */
+    --color-secondary: #555; /* Color secundario */
+    --color-text: #ffffff; /* Color del texto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: var(--color-text);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+aside {
+    background-color: #eee;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+#carouselAutos {
+    max-width: 470px;
+    margin: 0 auto;
+}
+
+#carouselAutos .carousel-item {
+    height: 300px;
+}
+
+#carouselAutos .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+}
+
+.accordion-button {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.accordion-button:hover {
+    background-color: var(--color-secondary);
+}
+
+.accordion-collapse {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.accordion-body {
+    margin-top: 0.5rem;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.badge {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+}
+
+.badge:hover {
+    background-color: var(--color-secondary);
+}
+
+#voki iframe {
+    margin-top: 20px; /* Reducir el espacio superior */
+    margin-bottom: 20px; /* Reducir el espacio inferior */
+}
+#animoto-container {
+    max-width: 360px; /* Define el ancho máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+    height: 400px; /* Aumenta la altura del contenedor */
+    overflow: hidden; /* Oculta el exceso de contenido */
+}
+
+#vp1XppST {
+    width: 100%; /* Ajusta el ancho del iframe al 100% del contenedor */
+    height: 100%; /* Ajusta la altura del iframe al 100% del contenedor */
+    display: block; /* Evita problemas de visualización */
+}
